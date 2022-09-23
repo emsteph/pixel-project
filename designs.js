@@ -1,5 +1,4 @@
-// Select color input
-// Select size input
+// Variables assigned to elements
 let pixelSize = document.querySelector('#sizePicker') ;
 const colorChoice = document.querySelector("#colorPicker")
 let canvasDesign = document.querySelector('#pixelCanvas');
@@ -17,7 +16,7 @@ pixelSize.addEventListener('submit', function(event) {
 
 function makeGrid() {
     
-    canvasDesign.innerHTML = null;
+    tableBod.innerHTML = null;
 
     const newWidth = pixelWidth.value;
     const newHeight = pixelHeight.value;
